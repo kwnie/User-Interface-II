@@ -1,1 +1,16 @@
 /* Add CSS styling here */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
