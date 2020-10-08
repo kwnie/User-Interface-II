@@ -1,7 +1,12 @@
 /* Add CSS styling here */
+body {
+    background-color: #DED1BD;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
+    background-color: #faf6f2;
 }
 
 header {
@@ -10,7 +15,43 @@ header {
     padding: 2rem;
 }
 
-h1 {
-    font-size: 6rem;
+button {
+    padding: 10px;
+    background-color: #d49e8d;
+    color: #683b2b;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
 }
 
+h1 {
+    font-size: 6rem;
+    margin-left: 7rem;
+}
+
+.hi {
+    color: #b08401;
+    height: 15px;
+}
+
+.kelsey {
+    color: #683b2b;
+}
+
+section p {
+    padding:10%;
+}
+
+ .projects {
+    display: flex;
+    flex-flow: row wrap;
+    
+ }
+
+ footer {
+     display: flex;
+     justify-content: center;
+     background-color: #b08401;
+     color: #683b2b;
+ }
+ 
