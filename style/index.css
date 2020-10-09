@@ -36,6 +36,7 @@ h1 {
 
 .kelsey {
     color: #683b2b;
+    margin-bottom: 0;
 }
 
 section p {
@@ -43,6 +44,7 @@ section p {
     color: #683b2b;
     font-weight: bold;
     background-color: #d49e8d;
+    margin-top: 9rem;
 }
 
 section .pic {
@@ -50,22 +52,22 @@ section .pic {
     flex-direction: row;
 }
 
- .projects {
+.projects {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 100px;
+    margin: 20% 0 20% 0;
  }
 
- .projects img {
+.projects img {
      margin: 0 30px 0 30px;
  }
 
- .projects p {
+.projects p {
      margin-left: 30px;
  }
 
- footer {
+footer {
      height: 6rem;
      display: flex;
      justify-content: center;
@@ -76,5 +78,16 @@ section .pic {
  footer button {
      height: 2rem;
      margin-top: 2rem;
+ }
+
+ button a {
+     text-decoration: none;
+     color: #683b2b;
+ }
+
+ section button {
+     margin-left: 7rem;
+     margin-top: 0;
+     
  }
  
