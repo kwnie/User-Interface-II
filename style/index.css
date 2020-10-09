@@ -39,8 +39,7 @@ h1 {
 }
 
 section p {
-    padding:7%;
-    margin: 3rem 3rem;
+    padding: 7%;
     color: #683b2b;
     font-weight: bold;
     background-color: #d49e8d;
@@ -51,15 +50,11 @@ section .pic {
     flex-direction: row;
 }
 
-section img {
-
-}
-
  .projects {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding-bottom: 3rem;
+    padding: 100px;
  }
 
  .projects img {
@@ -69,8 +64,6 @@ section img {
  .projects p {
      margin-left: 30px;
  }
-
-
 
  footer {
      height: 6rem;
