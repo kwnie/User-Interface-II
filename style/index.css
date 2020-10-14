@@ -64,11 +64,6 @@ section p {
     margin-top: 9rem;
 }
 
-section .pic {
-    display: flex;
-    flex-direction: row;
-}
-
 .projects {
     display: flex;
     flex-flow: row wrap;
@@ -139,6 +134,12 @@ footer {
     section p {
         margin: 10% 0 10% 0
 
+    }
+
+    .projects1, .projects2, .projects3 {
+        display: flex;
+        flex-direction: row;
+    }
     }
     
 
