@@ -108,7 +108,7 @@ footer {
      
  }
 
- @media all and (max-width: 800px){
+ @media all and (max-width: 800px) {
      nav {
          display: flex;
          flex-flow: column nowrap;
@@ -133,11 +133,14 @@ footer {
          margin: 10%
      }
 
-     }
-
- }
+}
 
  @media all and (max-width: 500px){
+    section p {
+        margin: 10% 0 10% 0
+
+    }
+    
 
  }
  
