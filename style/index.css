@@ -86,7 +86,7 @@ section p {
 
 footer {
     margin-top: 2rem;
-    height: 6rem;
+    height: 100%;
     display: flex;
     justify-content: center;
     background-color: #b08401;
@@ -155,7 +155,6 @@ footer {
      }
 
      footer {
-         display: flex;
          height: 100%
      }
 
