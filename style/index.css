@@ -40,6 +40,11 @@ button {
     margin: 10px;
 }
 
+button:hover {
+    background-color: tan;
+    font-weight: bold;
+}
+
 h1 {
     font-size: 6rem;
     margin-left: 7rem;
