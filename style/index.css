@@ -1,1 +1,162 @@
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+*/
+
 /* Add CSS styling here */
+body {
+    margin: 0 auto;
+    background-color: #faf6f2;
+    margin: 2%
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    padding: 1rem;
+    background-color: #d49e8d;
+    color: #683b2b;
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+button:hover {
+    background-color: tan;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 6rem;
+    margin-left: 7rem;
+}
+
+.hi {
+    color: #b08401;
+    margin-bottom: 0;
+}
+
+.kelsey {
+    color: #683b2b;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+section p {
+    padding: 7%;
+    color: #683b2b;
+    font-weight: bold;
+    background-color: #d49e8d;
+    margin-top: 9rem;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20% 0 20% 0;
+ }
+
+.projects img {
+     margin: 0 2rem 0 2rem;
+ }
+
+.projects p {
+     margin-left: 2rem
+ }
+
+footer {
+    margin-top: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #b08401;
+    color: #683b2b;
+ }
+
+ button a {
+     text-decoration: none;
+     color: #683b2b;
+ }
+
+ section button {
+     margin-left: 7rem;
+     margin-top: 0;
+     
+ }
+
+ @media all and (max-width: 800px) {
+     nav {
+         display: flex;
+         flex-flow: column nowrap;
+         justify-content: center;
+         align-content: center;
+         width: 800px;
+     }
+
+     section h1 {
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         margin-left: 0
+     }
+
+     section button {
+         width: 100%;
+         margin: 10% 0 0 0;
+     }
+
+     section p, .projects{
+         margin: 10%
+     }
+
+}
+
+ @media all and (max-width: 500px){
+    section p {
+        margin: 10% 0 10% 0
+
+    }
+
+    .projects1, .projects2, .projects3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+ }
+
+ @media all and (max-width: 360px) {
+     h1 {
+        text-align: center;
+     }
+
+     .projects1, .projects2, .projects3 {
+        display: flex;
+        flex-direction: column;
+     }
+
+     footer {
+         height: 100%
+     }
+
+ }
+ 
