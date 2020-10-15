@@ -32,12 +32,12 @@ header {
 }
 
 button {
-    padding: 10px;
+    padding: 1rem;
     background-color: #d49e8d;
     color: #683b2b;
     border: none;
-    border-radius: 5px;
-    margin: 10px;
+    border-radius: 1rem;
+    margin: 1rem;
 }
 
 button:hover {
@@ -77,24 +77,20 @@ section p {
  }
 
 .projects img {
-     margin: 0 30px 0 30px;
+     margin: 0 2rem 0 2rem;
  }
 
 .projects p {
-     margin-left: 30px;
+     margin-left: 2rem
  }
 
 footer {
-     height: 6rem;
-     display: flex;
-     justify-content: center;
-     background-color: #b08401;
-     color: #683b2b;
- }
-
- footer button {
-     height: 2rem;
-     margin-top: 2rem;
+    margin-top: 2rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    background-color: #b08401;
+    color: #683b2b;
  }
 
  button a {
@@ -145,8 +141,23 @@ footer {
         display: flex;
         flex-direction: row;
     }
-    }
-    
+
+ }
+
+ @media all and (max-width: 360px) {
+     h1 {
+        text-align: center;
+     }
+
+     .projects1, .projects2, .projects3 {
+        display: flex;
+        flex-direction: column;
+     }
+
+     footer {
+         display: flex;
+         height: 100%
+     }
 
  }
  
